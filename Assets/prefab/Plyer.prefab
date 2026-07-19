@@ -185,10 +185,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerState
   canMove: 0
   reverseControls: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  baseSpeed: 31.66
+  currentSpeed: 51.6
+  baseSensitivity: 1
+  currentSensitivity: 2
+=======
+>>>>>>> Stashed changes
   baseSpeed: 20
   currentSpeed: 20
   baseSensitivity: 100
   currentSensitivity: 100
+<<<<<<< Updated upstream
+=======
+>>>>>>> ef4fa033599fd9fb4ba2f8b2bc13c95e5ea83d0b
+>>>>>>> Stashed changes
   stopDistance: 0.1
 --- !u!114 &3417929595947040238
 MonoBehaviour:
