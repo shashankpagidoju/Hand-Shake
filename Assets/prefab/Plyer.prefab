@@ -185,10 +185,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerState
   canMove: 0
   reverseControls: 0
-  baseSpeed: 6
-  currentSpeed: 15
-  baseSensitivity: 1
-  currentSensitivity: 2
+  baseSpeed: 20
+  currentSpeed: 20
+  baseSensitivity: 100
+  currentSensitivity: 100
   stopDistance: 0.1
 --- !u!114 &3417929595947040238
 MonoBehaviour:
