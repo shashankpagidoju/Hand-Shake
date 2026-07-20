@@ -27,35 +27,33 @@ public class MouseFollow : MonoBehaviour
         if (!state.canMove)
             return;
 
-        // Mouse movement
         Vector2 input = Mouse.current.delta.ReadValue();
 
-        // Dead zone
+        // Dead Zone
         if (input.magnitude < deadZone)
             input = Vector2.zero;
 
-        // Reverse controls
+        // Reverse Controls
         if (state.reverseControls)
             input *= -1;
 
-        // Direction only
-        Vector2 direction = input.normalized;
+        // Apply game sensitivity
+        input *= state.currentSensitivity;
 
-        // Target velocity
-        Vector2 targetVelocity = direction * state.currentSpeed;
+        // Limit extremely high mouse movement
+        input = Vector2.ClampMagnitude(input, 20f);
 
-        // Smooth but responsive
-        velocity = Vector2.Lerp(
-            velocity,
-            targetVelocity,
-            smoothing * Time.fixedDeltaTime
-        );
+        // Scale input to game speed
+        Vector2 targetVelocity = input * state.currentSpeed * 0.08f;
 
-        // Stop immediately if no input
+        // Smooth movement 
+        float t = 1f - Mathf.Exp(-smoothing * Time.fixedDeltaTime);
+        velocity = Vector2.Lerp(velocity, targetVelocity, t);
+
+        // Stop quickly when there is no movement
         if (input == Vector2.zero)
             velocity = Vector2.zero;
 
-        // Move player
         rb.MovePosition(rb.position + velocity * Time.fixedDeltaTime);
     }
 }
