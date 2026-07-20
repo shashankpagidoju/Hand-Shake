@@ -7,14 +7,19 @@ public class MouseFollow : MonoBehaviour
     private Rigidbody2D rb;
     private PlayerState state;
 
-    private Vector3 lastMousePosition;
+    [Header("Movement")]
+    public float smoothing = 15f;
+    public float deadZone = 2f;
+
+    private Vector2 velocity;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         state = GetComponent<PlayerState>();
 
-        lastMousePosition = Input.mousePosition;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void FixedUpdate()
@@ -22,16 +27,35 @@ public class MouseFollow : MonoBehaviour
         if (!state.canMove)
             return;
 
-        // Read mouse movement this frame
-        Vector2 mouseDelta = Mouse.current.delta.ReadValue();
+        // Mouse movement
+        Vector2 input = Mouse.current.delta.ReadValue();
+
+        // Dead zone
+        if (input.magnitude < deadZone)
+            input = Vector2.zero;
 
         // Reverse controls
         if (state.reverseControls)
-            mouseDelta *= -1;
+            input *= -1;
+
+        // Direction only
+        Vector2 direction = input.normalized;
+
+        // Target velocity
+        Vector2 targetVelocity = direction * state.currentSpeed;
+
+        // Smooth but responsive
+        velocity = Vector2.Lerp(
+            velocity,
+            targetVelocity,
+            smoothing * Time.fixedDeltaTime
+        );
+
+        // Stop immediately if no input
+        if (input == Vector2.zero)
+            velocity = Vector2.zero;
 
         // Move player
-        Vector2 movement = mouseDelta * state.currentSpeed * Time.fixedDeltaTime * 0.1f;
-
-        rb.MovePosition(rb.position + movement);
+        rb.MovePosition(rb.position + velocity * Time.fixedDeltaTime);
     }
 }
