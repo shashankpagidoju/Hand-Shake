@@ -3010,7 +3010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerState
   canMove: 0
   reverseControls: 0
-  baseSpeed: 22.16
+  baseSpeed: 6.7
   currentSpeed: 15
   baseSensitivity: 1
   currentSensitivity: 2
