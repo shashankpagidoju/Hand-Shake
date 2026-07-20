@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MouseFollow : MonoBehaviour
@@ -18,6 +19,16 @@ public class MouseFollow : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         state = GetComponent<PlayerState>();
 
+        if (PlayerPrefs.GetInt("Restarted", 0) == 1)
+        {
+            StartCoroutine(LockCursorNextFrame());
+        }
+    }
+
+    IEnumerator LockCursorNextFrame()
+    {
+        yield return null;
+
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -29,28 +40,22 @@ public class MouseFollow : MonoBehaviour
 
         Vector2 input = Mouse.current.delta.ReadValue();
 
-        // Dead Zone
         if (input.magnitude < deadZone)
             input = Vector2.zero;
 
-        // Reverse Controls
         if (state.reverseControls)
             input *= -1;
 
-        // Apply game sensitivity
-        input *= state.currentSensitivity;
+        Vector2 direction = input.normalized;
 
-        // Limit extremely high mouse movement
-        input = Vector2.ClampMagnitude(input, 20f);
+        Vector2 targetVelocity = direction * state.currentSpeed;
 
-        // Scale input to game speed
-        Vector2 targetVelocity = input * state.currentSpeed * 0.08f;
+        velocity = Vector2.Lerp(
+            velocity,
+            targetVelocity,
+            smoothing * Time.fixedDeltaTime
+        );
 
-        // Smooth movement 
-        float t = 1f - Mathf.Exp(-smoothing * Time.fixedDeltaTime);
-        velocity = Vector2.Lerp(velocity, targetVelocity, t);
-
-        // Stop quickly when there is no movement
         if (input == Vector2.zero)
             velocity = Vector2.zero;
 

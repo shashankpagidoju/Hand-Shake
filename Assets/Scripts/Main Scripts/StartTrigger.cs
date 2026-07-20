@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class StartTrigger : MonoBehaviour
 {
@@ -6,18 +7,24 @@ public class StartTrigger : MonoBehaviour
 
     void Update()
     {
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        // Skip if player can already move
+        if (player.GetComponent<PlayerState>().canMove)
+            return;
 
-        if (GetComponent<Collider2D>().OverlapPoint(mousePos))
+        // Only respond to LEFT CLICK
+        if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            PlayerState state = player.GetComponent<PlayerState>();
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
-            state.canMove = true;
+            if (GetComponent<Collider2D>().OverlapPoint(mousePos))
+            {
+                PlayerState state = player.GetComponent<PlayerState>();
 
-            // Hide the cursor
-            Cursor.visible = false;
+                state.canMove = true;
 
-            enabled = false;
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+            }
         }
     }
 }
