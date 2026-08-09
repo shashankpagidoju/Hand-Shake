@@ -9,29 +9,22 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
 
-        if (PlayerPrefs.GetInt("Restarted", 0) == 1)
-        {
-            PlayerState state = FindFirstObjectByType<PlayerState>();
+        // Every time the scene loads,
+        // player must use the Start box again.
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
-            if (state != null)
-                state.canMove = true;
+        PlayerState state = FindFirstObjectByType<PlayerState>();
 
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
-
-            PlayerPrefs.SetInt("Restarted", 0);
-        }
-        else
-        {
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
-        }
+        if (state != null)
+            state.canMove = false;
     }
 
     public void GameOver()
     {
         gameOverPanel.SetActive(true);
 
+        // Show cursor so player can click Restart
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
 
@@ -40,10 +33,13 @@ public class GameManager : MonoBehaviour
 
     public void Restart()
     {
-        PlayerPrefs.SetInt("Restarted", 1);
-
+        // Resume time before loading
         Time.timeScale = 1f;
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        // Reload scene
+        // StartTrigger will require the blue box again
+        SceneManager.LoadScene(
+            SceneManager.GetActiveScene().buildIndex
+        );
     }
 }

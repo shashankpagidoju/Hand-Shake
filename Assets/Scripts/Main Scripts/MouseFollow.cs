@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MouseFollow : MonoBehaviour
@@ -19,30 +18,24 @@ public class MouseFollow : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         state = GetComponent<PlayerState>();
 
-        if (PlayerPrefs.GetInt("Restarted", 0) == 1)
-        {
-            StartCoroutine(LockCursorNextFrame());
-        }
-    }
-
-    IEnumerator LockCursorNextFrame()
-    {
-        yield return null;
-
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        // Cursor is visible until the player touches the Start box
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     void FixedUpdate()
     {
+        // Ball cannot move until Start box is activated
         if (!state.canMove)
             return;
 
         Vector2 input = Mouse.current.delta.ReadValue();
 
+        // Dead zone
         if (input.magnitude < deadZone)
             input = Vector2.zero;
 
+        // Reverse controls
         if (state.reverseControls)
             input *= -1;
 
@@ -50,15 +43,19 @@ public class MouseFollow : MonoBehaviour
 
         Vector2 targetVelocity = direction * state.currentSpeed;
 
+        // Smooth movement
         velocity = Vector2.Lerp(
             velocity,
             targetVelocity,
             smoothing * Time.fixedDeltaTime
         );
 
+        // Stop when mouse stops
         if (input == Vector2.zero)
             velocity = Vector2.zero;
 
-        rb.MovePosition(rb.position + velocity * Time.fixedDeltaTime);
+        rb.MovePosition(
+            rb.position + velocity * Time.fixedDeltaTime
+        );
     }
 }
