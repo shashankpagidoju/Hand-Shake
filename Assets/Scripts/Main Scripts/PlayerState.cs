@@ -7,8 +7,8 @@ public class PlayerState : MonoBehaviour
     public bool reverseControls = false;
 
     [Header("Speed")]
-    public float baseSpeed = 15f;
-    public float currentSpeed = 15f;
+    public float baseSpeed = 10f;
+    public float currentSpeed = 10f;
 
     [Header("Sensitivity")]
     public float baseSensitivity = 1f;

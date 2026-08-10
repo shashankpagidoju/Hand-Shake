@@ -7,53 +7,71 @@ public class MouseFollow : MonoBehaviour
     private Rigidbody2D rb;
     private PlayerState state;
 
-    [Header("Movement")]
-    public float smoothing = 15f;
-    public float deadZone = 2f;
+    // Fixed values - DO NOT change
+    private const float MOVE_MULTIPLIER = 0.08f;
+    private const float SMOOTH_TIME = 0.035f;
 
+    private Vector2 mouseInput;
     private Vector2 velocity;
+    private Vector2 smoothVelocity;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         state = GetComponent<PlayerState>();
 
-        // Cursor is visible until the player touches the Start box
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        // Ball cannot move until Start box is activated
         if (!state.canMove)
             return;
 
-        Vector2 input = Mouse.current.delta.ReadValue();
+        // Collect ALL mouse movement between physics frames.
+        // This prevents small/slow mouse movements from being lost.
+        mouseInput += Mouse.current.delta.ReadValue();
+    }
 
-        // Dead zone
-        if (input.magnitude < deadZone)
-            input = Vector2.zero;
+    void FixedUpdate()
+    {
+        if (!state.canMove)
+        {
+            velocity = Vector2.zero;
+            mouseInput = Vector2.zero;
+            return;
+        }
+
+        // Get the accumulated mouse movement
+        Vector2 input = mouseInput;
+
+        // Reset immediately so the same movement isn't used twice
+        mouseInput = Vector2.zero;
 
         // Reverse controls
         if (state.reverseControls)
-            input *= -1;
+            input *= -1f;
 
-        Vector2 direction = input.normalized;
+        // Convert mouse movement into movement speed.
+        // IMPORTANT: Do NOT normalize the input.
+        Vector2 targetVelocity = input * state.currentSpeed * MOVE_MULTIPLIER;
 
-        Vector2 targetVelocity = direction * state.currentSpeed;
-
-        // Smooth movement
-        velocity = Vector2.Lerp(
-            velocity,
+        // Prevent extremely fast mouse movements from exceeding game speed
+        targetVelocity = Vector2.ClampMagnitude(
             targetVelocity,
-            smoothing * Time.fixedDeltaTime
+            state.currentSpeed
         );
 
-        // Stop when mouse stops
-        if (input == Vector2.zero)
-            velocity = Vector2.zero;
+        // Very smooth but responsive movement
+        velocity = Vector2.SmoothDamp(
+            velocity,
+            targetVelocity,
+            ref smoothVelocity,
+            SMOOTH_TIME
+        );
 
+        // Move the ball
         rb.MovePosition(
             rb.position + velocity * Time.fixedDeltaTime
         );
