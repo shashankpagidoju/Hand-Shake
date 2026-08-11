@@ -2589,11 +2589,11 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 066197783c5cd8146987fa38fea64046, type: 3}
+  m_Resource: {fileID: 8300000, guid: a8e38ca3f013558458f8dc3a75bf77ad, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.079
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3469,7 +3469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74181375f7932e044960593852e20a0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MagnetPull
-  magnetStrength: 3
+  magnetStrength: 1.5
 --- !u!58 &1962957850
 CircleCollider2D:
   m_ObjectHideFlags: 0
