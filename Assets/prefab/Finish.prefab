@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2879048226652924306}
   - component: {fileID: 1312308649383550964}
   - component: {fileID: 443028545164369010}
+  - component: {fileID: 7894114725287095831}
   m_Layer: 0
   m_Name: Finish
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.8815, y: 0.315, z: 0}
-  m_LocalScale: {x: 1.4850613, y: 0.6212182, z: 1}
+  m_LocalScale: {x: 0.6655076, y: 0.57968426, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -139,7 +140,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.122793764, y: -0.053371876}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -149,7 +150,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.0000001, y: 1}
+  m_Size: {x: 0.7544126, y: 0.89325565}
   m_EdgeRadius: 0
 --- !u!50 &443028545164369010
 Rigidbody2D:
@@ -178,3 +179,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7894114725287095831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7644951473426241260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b48857a99cb6424596f267c8953500e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExitAudio
+  exitSound: {fileID: 8300000, guid: 5ebd4af1c28247f429a6b3bf555e9842, type: 3}
