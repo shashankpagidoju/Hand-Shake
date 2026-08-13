@@ -63,7 +63,7 @@ Material:
     m_Colors:
     - White: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Glow_Colour: {r: 0.9148886, g: 0.9559748, b: 0.5260867, a: 1}
+    - _Glow_Colour: {r: 0.78039217, g: 0.15294114, b: 0.8235294, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

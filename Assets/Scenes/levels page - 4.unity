@@ -1187,11 +1187,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2908692925501954281, guid: 140f3baaab2c1124ab43aec89db8f32e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.1062
+      value: -7.26
       objectReference: {fileID: 0}
     - target: {fileID: 2908692925501954281, guid: 140f3baaab2c1124ab43aec89db8f32e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.96
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 2908692925501954281, guid: 140f3baaab2c1124ab43aec89db8f32e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1379,6 +1379,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1054409243020048746, guid: ea6378743ab21174081485b354d3be47, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: def06331288fc77409b61002d3a08ede, type: 2}
+    - target: {fileID: 1803787209221524383, guid: ea6378743ab21174081485b354d3be47, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: def06331288fc77409b61002d3a08ede, type: 2}
     - target: {fileID: 4506973379215047154, guid: ea6378743ab21174081485b354d3be47, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2675604
@@ -1419,6 +1427,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5709235285222410651, guid: ea6378743ab21174081485b354d3be47, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: def06331288fc77409b61002d3a08ede, type: 2}
+    - target: {fileID: 8841933332523626215, guid: ea6378743ab21174081485b354d3be47, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: def06331288fc77409b61002d3a08ede, type: 2}
     - target: {fileID: 9161176212075234489, guid: ea6378743ab21174081485b354d3be47, type: 3}
       propertyPath: m_Name
       value: parent
