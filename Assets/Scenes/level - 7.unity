@@ -562,6 +562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Death
   gameManager: {fileID: 1507932848}
+  ballBreakEffect: {fileID: 0}
 --- !u!58 &432145805
 CircleCollider2D:
   m_ObjectHideFlags: 0
