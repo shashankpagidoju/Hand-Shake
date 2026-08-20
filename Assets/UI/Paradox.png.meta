@@ -1,0 +1,1833 @@
+fileFormatVersion: 2
+guid: fe8907c348786a6458563eeebacd043a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4002107527779753198
+    second: Paradox_0
+  - first:
+      213: -6103919276432548417
+    second: Paradox_1
+  - first:
+      213: -8689116297744446922
+    second: Paradox_2
+  - first:
+      213: 6217738482705631291
+    second: Paradox_3
+  - first:
+      213: 8921638282154370360
+    second: Paradox_4
+  - first:
+      213: -2785926119452670700
+    second: Paradox_5
+  - first:
+      213: 3296241496393831518
+    second: Paradox_6
+  - first:
+      213: -3233630547647592038
+    second: Paradox_7
+  - first:
+      213: 1018860777510141525
+    second: Paradox_8
+  - first:
+      213: -8589031008959942003
+    second: Paradox_9
+  - first:
+      213: 5463664270362245118
+    second: Paradox_10
+  - first:
+      213: -5491602655674242449
+    second: Paradox_11
+  - first:
+      213: -3440638338445352162
+    second: Paradox_12
+  - first:
+      213: 7661350608639741160
+    second: Paradox_13
+  - first:
+      213: -8937051057347027612
+    second: Paradox_14
+  - first:
+      213: -7476154049001921771
+    second: Paradox_15
+  - first:
+      213: -4874537252631963877
+    second: Paradox_16
+  - first:
+      213: 6394857045593937390
+    second: Paradox_17
+  - first:
+      213: 3648366921191000064
+    second: Paradox_18
+  - first:
+      213: 8624377441553973994
+    second: Paradox_19
+  - first:
+      213: 9006399121493899336
+    second: Paradox_20
+  - first:
+      213: 5752081038107287867
+    second: Paradox_21
+  - first:
+      213: -3708950386614270980
+    second: Paradox_22
+  - first:
+      213: 8218243106313552853
+    second: Paradox_23
+  - first:
+      213: -4785508906480129140
+    second: Paradox_24
+  - first:
+      213: 2860652261571934807
+    second: Paradox_25
+  - first:
+      213: 7558169964462088247
+    second: Paradox_26
+  - first:
+      213: -8208721621900167118
+    second: Paradox_27
+  - first:
+      213: -2696429726260578560
+    second: Paradox_28
+  - first:
+      213: -6642292208386615773
+    second: Paradox_29
+  - first:
+      213: -3439347238469874085
+    second: Paradox_30
+  - first:
+      213: 8120869959134397199
+    second: Paradox_31
+  - first:
+      213: -6860925285281096199
+    second: Paradox_32
+  - first:
+      213: -3894190657919788086
+    second: Paradox_33
+  - first:
+      213: 591882445443153353
+    second: Paradox_34
+  - first:
+      213: -6366767244533120329
+    second: Paradox_35
+  - first:
+      213: 3294327170268848164
+    second: Paradox_36
+  - first:
+      213: -8463781566791675919
+    second: Paradox_37
+  - first:
+      213: -1283240819868017469
+    second: Paradox_38
+  - first:
+      213: -6828470899723724071
+    second: Paradox_39
+  - first:
+      213: -7092890312210256037
+    second: Paradox_40
+  - first:
+      213: -1700941875788960686
+    second: Paradox_41
+  - first:
+      213: -1764557170094993900
+    second: Paradox_42
+  - first:
+      213: -260344791317766887
+    second: Paradox_43
+  - first:
+      213: 5203330878956723002
+    second: Paradox_44
+  - first:
+      213: -2269378357592176997
+    second: Paradox_45
+  - first:
+      213: -324567387193972433
+    second: Paradox_46
+  - first:
+      213: 4015326768356847883
+    second: Paradox_47
+  - first:
+      213: 5708410133607037680
+    second: Paradox_48
+  - first:
+      213: 3161381282347170858
+    second: Paradox_49
+  - first:
+      213: -7303039148637237213
+    second: Paradox_50
+  - first:
+      213: -6760831345463355775
+    second: Paradox_51
+  - first:
+      213: 657344474161632792
+    second: Paradox_52
+  - first:
+      213: -218045918890782267
+    second: Paradox_53
+  - first:
+      213: 3904791206282405765
+    second: Paradox_54
+  - first:
+      213: 6225702253687704198
+    second: Paradox_55
+  - first:
+      213: 37250811295545973
+    second: Paradox_56
+  - first:
+      213: -5869381633639917169
+    second: Paradox_57
+  - first:
+      213: -7717565090936487581
+    second: Paradox_58
+  - first:
+      213: -6322655598063144940
+    second: Paradox_59
+  - first:
+      213: -7446782460566385669
+    second: Paradox_60
+  - first:
+      213: 5971298028808263271
+    second: Paradox_61
+  - first:
+      213: 3440679083691739721
+    second: Paradox_62
+  - first:
+      213: -8869202728181530156
+    second: Paradox_63
+  - first:
+      213: -4835849541150257062
+    second: Paradox_64
+  - first:
+      213: -1350012325199256560
+    second: Paradox_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Paradox_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2172
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21365c55868a578c0800000000000000
+      internalID: -4002107527779753198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 695
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd149e02c58a4ba0800000000000000
+      internalID: -6103919276432548417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 683
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a82ec93ce0a6780800000000000000
+      internalID: -8689116297744446922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_3
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 675
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3802fff438d94650800000000000000
+      internalID: 6217738482705631291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 677
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835665eafb600db70800000000000000
+      internalID: 8921638282154370360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 661
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4158a8f64f66659d0800000000000000
+      internalID: -2785926119452670700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_6
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 667
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54d47e3d2a9ebd20800000000000000
+      internalID: 3296241496393831518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 662
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a990d904626df13d0800000000000000
+      internalID: -3233630547647592038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_8
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 657
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ef11f9a78b32e00800000000000000
+      internalID: 1018860777510141525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_9
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 673
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82b022ddc1adc880800000000000000
+      internalID: -8589031008959942003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_10
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 630
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef77fe6c4b5d2db40800000000000000
+      internalID: 5463664270362245118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_11
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 666
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ae1fcfa78e9c3b0800000000000000
+      internalID: -5491602655674242449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_12
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 667
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13ef5419a56040d0800000000000000
+      internalID: -3440638338445352162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_13
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 660
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecc1b779c5925a60800000000000000
+      internalID: 7661350608639741160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_14
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 655
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d1d43f96739f380800000000000000
+      internalID: -8937051057347027612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_15
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 656
+        width: 56
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5136427b08d5f3890800000000000000
+      internalID: -7476154049001921771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_16
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 653
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b179674f13a2a5cb0800000000000000
+      internalID: -4874537252631963877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_17
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 658
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5d7000a981fb850800000000000000
+      internalID: 6394857045593937390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_18
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 642
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00800eb826a91a230800000000000000
+      internalID: 3648366921191000064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_19
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 651
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae287b4d691ffa770800000000000000
+      internalID: 8624377441553973994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_20
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 646
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848b80678482dfc70800000000000000
+      internalID: 9006399121493899336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_21
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 629
+        width: 15
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3125a37a3f73df40800000000000000
+      internalID: 5752081038107287867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_22
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 647
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf30f443649278cc0800000000000000
+      internalID: -3708950386614270980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_23
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 642
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d34f9520901d0270800000000000000
+      internalID: 8218243106313552853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_24
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 641
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ba8c71105769db0800000000000000
+      internalID: -4785508906480129140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_25
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 644
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ab9e4531413b720800000000000000
+      internalID: 2860652261571934807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_26
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 651
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7302acba98304e860800000000000000
+      internalID: 7558169964462088247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_27
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 642
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23872923d23c41e80800000000000000
+      internalID: -8208721621900167118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_28
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 642
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0073f64437b549ad0800000000000000
+      internalID: -2696429726260578560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_29
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 626
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32655c8cd66d1d3a0800000000000000
+      internalID: -6642292208386615773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_30
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 611
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e48c7b8ebf440d0800000000000000
+      internalID: -3439347238469874085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_31
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 642
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03c85d933023b070800000000000000
+      internalID: 8120869959134397199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_32
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 634
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd1354cdc819c0a0800000000000000
+      internalID: -6860925285281096199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 142
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbdb0b9a3e05f9c0800000000000000
+      internalID: -3894190657919788086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_34
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 136
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdbd6db2f9c63800800000000000000
+      internalID: 591882445443153353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_35
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 133
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2c2067ce2b4a7a0800000000000000
+      internalID: -6366767244533120329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_36
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 134
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420eac57b1dc7bd20800000000000000
+      internalID: 3294327170268848164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_37
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 101
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff02ee028b9a8a80800000000000000
+      internalID: -8463781566791675919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_38
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 110
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc5c72f543013ee0800000000000000
+      internalID: -1283240819868017469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_39
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 77
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da10ee35e56c31a0800000000000000
+      internalID: -6828470899723724071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_40
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 95
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fe5ed37ddf09d90800000000000000
+      internalID: -7092890312210256037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_41
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 75
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c230e306a0568e0800000000000000
+      internalID: -1700941875788960686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_42
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 86
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e8e925a980387e0800000000000000
+      internalID: -1764557170094993900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_43
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 95
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d916aaac1136cf0800000000000000
+      internalID: -260344791317766887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_44
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b5901bdd1f53840800000000000000
+      internalID: 5203330878956723002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_45
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 80
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9642ce486c8180e0800000000000000
+      internalID: -2269378357592176997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_46
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 63
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2960a45ea7ee7bf0800000000000000
+      internalID: -324567387193972433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_47
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 79
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01f605fb6e49b730800000000000000
+      internalID: 4015326768356847883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_48
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 63
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa33e5a5c8583f40800000000000000
+      internalID: 5708410133607037680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_49
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 61
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c3fddc68b7fdb20800000000000000
+      internalID: 3161381282347170858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_50
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 49
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320d4b4669466aa90800000000000000
+      internalID: -7303039148637237213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_51
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 71
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186945336b3bc22a0800000000000000
+      internalID: -6760831345463355775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_52
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 73
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8165875015b5f1900800000000000000
+      internalID: 657344474161632792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_53
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 71
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c19acb546859fcf0800000000000000
+      internalID: -218045918890782267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_54
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5872884e9ea903630800000000000000
+      internalID: 3904791206282405765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_55
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 69
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a876ce633266650800000000000000
+      internalID: 6225702253687704198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_56
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 63
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57abdde5a67548000800000000000000
+      internalID: 37250811295545973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_57
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 69
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89d0b36084cb8ea0800000000000000
+      internalID: -5869381633639917169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_58
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 47
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36186cf6073b5e490800000000000000
+      internalID: -7717565090936487581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_59
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 51
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410bf408b3a6148a0800000000000000
+      internalID: -6322655598063144940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 65
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbc45e8ec6b7a890800000000000000
+      internalID: -7446782460566385669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_61
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 55
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7665b1f7bef4ed250800000000000000
+      internalID: 5971298028808263271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_62
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 46
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a0099a56fbfbf20800000000000000
+      internalID: 3440679083691739721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_63
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 34
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d180d91c134ae480800000000000000
+      internalID: -8869202728181530156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_64
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 15
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50d088b67c93ecb0800000000000000
+      internalID: -4835849541150257062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paradox_65
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 21
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014691261fac34de0800000000000000
+      internalID: -1350012325199256560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Paradox_0: -4002107527779753198
+      Paradox_1: -6103919276432548417
+      Paradox_10: 5463664270362245118
+      Paradox_11: -5491602655674242449
+      Paradox_12: -3440638338445352162
+      Paradox_13: 7661350608639741160
+      Paradox_14: -8937051057347027612
+      Paradox_15: -7476154049001921771
+      Paradox_16: -4874537252631963877
+      Paradox_17: 6394857045593937390
+      Paradox_18: 3648366921191000064
+      Paradox_19: 8624377441553973994
+      Paradox_2: -8689116297744446922
+      Paradox_20: 9006399121493899336
+      Paradox_21: 5752081038107287867
+      Paradox_22: -3708950386614270980
+      Paradox_23: 8218243106313552853
+      Paradox_24: -4785508906480129140
+      Paradox_25: 2860652261571934807
+      Paradox_26: 7558169964462088247
+      Paradox_27: -8208721621900167118
+      Paradox_28: -2696429726260578560
+      Paradox_29: -6642292208386615773
+      Paradox_3: 6217738482705631291
+      Paradox_30: -3439347238469874085
+      Paradox_31: 8120869959134397199
+      Paradox_32: -6860925285281096199
+      Paradox_33: -3894190657919788086
+      Paradox_34: 591882445443153353
+      Paradox_35: -6366767244533120329
+      Paradox_36: 3294327170268848164
+      Paradox_37: -8463781566791675919
+      Paradox_38: -1283240819868017469
+      Paradox_39: -6828470899723724071
+      Paradox_4: 8921638282154370360
+      Paradox_40: -7092890312210256037
+      Paradox_41: -1700941875788960686
+      Paradox_42: -1764557170094993900
+      Paradox_43: -260344791317766887
+      Paradox_44: 5203330878956723002
+      Paradox_45: -2269378357592176997
+      Paradox_46: -324567387193972433
+      Paradox_47: 4015326768356847883
+      Paradox_48: 5708410133607037680
+      Paradox_49: 3161381282347170858
+      Paradox_5: -2785926119452670700
+      Paradox_50: -7303039148637237213
+      Paradox_51: -6760831345463355775
+      Paradox_52: 657344474161632792
+      Paradox_53: -218045918890782267
+      Paradox_54: 3904791206282405765
+      Paradox_55: 6225702253687704198
+      Paradox_56: 37250811295545973
+      Paradox_57: -5869381633639917169
+      Paradox_58: -7717565090936487581
+      Paradox_59: -6322655598063144940
+      Paradox_6: 3296241496393831518
+      Paradox_60: -7446782460566385669
+      Paradox_61: 5971298028808263271
+      Paradox_62: 3440679083691739721
+      Paradox_63: -8869202728181530156
+      Paradox_64: -4835849541150257062
+      Paradox_65: -1350012325199256560
+      Paradox_7: -3233630547647592038
+      Paradox_8: 1018860777510141525
+      Paradox_9: -8589031008959942003
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
