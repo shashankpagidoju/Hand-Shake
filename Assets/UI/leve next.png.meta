@@ -1,0 +1,1937 @@
+fileFormatVersion: 2
+guid: c0a8864f6e4c0f64398384f816db41f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5237767340637157373
+    second: leve next_0
+  - first:
+      213: 7570834326545703823
+    second: leve next_1
+  - first:
+      213: -7673555864733177313
+    second: leve next_2
+  - first:
+      213: 1265412885180728801
+    second: leve next_3
+  - first:
+      213: -6830169430750029663
+    second: leve next_4
+  - first:
+      213: 3359033193077617159
+    second: leve next_5
+  - first:
+      213: -5519125812378626625
+    second: leve next_6
+  - first:
+      213: 3804378688855334005
+    second: leve next_7
+  - first:
+      213: 5248922578368731409
+    second: leve next_8
+  - first:
+      213: -8032941719139033479
+    second: leve next_9
+  - first:
+      213: -881666781491555820
+    second: leve next_10
+  - first:
+      213: -5109753228470738832
+    second: leve next_11
+  - first:
+      213: -4284260578609379238
+    second: leve next_12
+  - first:
+      213: -4372709517135886357
+    second: leve next_13
+  - first:
+      213: -5671973855134259511
+    second: leve next_14
+  - first:
+      213: 6058648845253024547
+    second: leve next_15
+  - first:
+      213: 6493876047346990517
+    second: leve next_16
+  - first:
+      213: 2876200546934208922
+    second: leve next_17
+  - first:
+      213: -7819848633983905871
+    second: leve next_18
+  - first:
+      213: -2792037786837346648
+    second: leve next_19
+  - first:
+      213: -1365504108561144903
+    second: leve next_20
+  - first:
+      213: 8648234563318298719
+    second: leve next_21
+  - first:
+      213: -8234806536910095641
+    second: leve next_22
+  - first:
+      213: 2800927238372450775
+    second: leve next_23
+  - first:
+      213: 1176835874191413680
+    second: leve next_24
+  - first:
+      213: -481554571273695150
+    second: leve next_25
+  - first:
+      213: 457243618179571218
+    second: leve next_26
+  - first:
+      213: -5852269481738302970
+    second: leve next_27
+  - first:
+      213: 6157564385383382313
+    second: leve next_28
+  - first:
+      213: 6257398023318428678
+    second: leve next_29
+  - first:
+      213: -1981005623563378939
+    second: leve next_30
+  - first:
+      213: 7426456889950684367
+    second: leve next_31
+  - first:
+      213: 5763476360797139068
+    second: leve next_32
+  - first:
+      213: -5514628144369071875
+    second: leve next_33
+  - first:
+      213: -4574133312535133015
+    second: leve next_34
+  - first:
+      213: 6543884394336060535
+    second: leve next_35
+  - first:
+      213: -5782491920736446216
+    second: leve next_36
+  - first:
+      213: 3955721942126001010
+    second: leve next_37
+  - first:
+      213: -1008090050631989425
+    second: leve next_38
+  - first:
+      213: 6536638395785154875
+    second: leve next_39
+  - first:
+      213: 261865258633224555
+    second: leve next_40
+  - first:
+      213: -7718775624068722805
+    second: leve next_41
+  - first:
+      213: 5620456515168784398
+    second: leve next_42
+  - first:
+      213: -5271477809005291481
+    second: leve next_43
+  - first:
+      213: -4064618009899713728
+    second: leve next_44
+  - first:
+      213: 8848230129231290838
+    second: leve next_45
+  - first:
+      213: -8631984698306356581
+    second: leve next_46
+  - first:
+      213: -1602407362137204881
+    second: leve next_47
+  - first:
+      213: 8198897009703883799
+    second: leve next_48
+  - first:
+      213: 5439914692627857608
+    second: leve next_49
+  - first:
+      213: 609059243175799800
+    second: leve next_50
+  - first:
+      213: 3239159486370812966
+    second: leve next_51
+  - first:
+      213: 6669398678593659675
+    second: leve next_52
+  - first:
+      213: -5731043377708968888
+    second: leve next_53
+  - first:
+      213: -7243941849100217205
+    second: leve next_54
+  - first:
+      213: 5356350212311908018
+    second: leve next_55
+  - first:
+      213: 8292605264045505048
+    second: leve next_56
+  - first:
+      213: -4543639542615958733
+    second: leve next_57
+  - first:
+      213: 8022120089679394441
+    second: leve next_58
+  - first:
+      213: -7766544476609019850
+    second: leve next_59
+  - first:
+      213: 798834132778559965
+    second: leve next_60
+  - first:
+      213: 690899343925154893
+    second: leve next_61
+  - first:
+      213: 8083646977559004267
+    second: leve next_62
+  - first:
+      213: -1126814951928221963
+    second: leve next_63
+  - first:
+      213: -6917297450229552741
+    second: leve next_64
+  - first:
+      213: 2410901730160358878
+    second: leve next_65
+  - first:
+      213: 4805278186082622652
+    second: leve next_66
+  - first:
+      213: -3968088660999680587
+    second: leve next_67
+  - first:
+      213: 4105619842433679463
+    second: leve next_68
+  - first:
+      213: 8873173008926159858
+    second: leve next_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: leve next_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2172
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7f1da35a940b840800000000000000
+      internalID: 5237767340637157373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 667
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83271f35b1011960800000000000000
+      internalID: 7570834326545703823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_2
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 659
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1aa676e89d028590800000000000000
+      internalID: -7673555864733177313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_3
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 659
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5466b8056af8110800000000000000
+      internalID: 1265412885180728801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_4
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 663
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8996c271d5631a0800000000000000
+      internalID: -6830169430750029663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_5
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 665
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702332664eead9e20800000000000000
+      internalID: 3359033193077617159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_6
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 652
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb59b72b0502863b0800000000000000
+      internalID: -5519125812378626625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_7
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 663
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cd944d24edbc430800000000000000
+      internalID: 3804378688855334005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_8
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 661
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1191239664be7d840800000000000000
+      internalID: 5248922578368731409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_9
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 679
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e5d491112458090800000000000000
+      internalID: -8032941719139033479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_10
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 632
+        width: 128
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4121fe6cbb0b3c3f0800000000000000
+      internalID: -881666781491555820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_11
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 675
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070a817e2828619b0800000000000000
+      internalID: -5109753228470738832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_12
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 665
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5847c6e3bf3b84c0800000000000000
+      internalID: -4284260578609379238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_13
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 649
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7452d9cd30153c0800000000000000
+      internalID: -4372709517135886357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 657
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c66b6584d91941b0800000000000000
+      internalID: -5671973855134259511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 659
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b13205605a41450800000000000000
+      internalID: 6058648845253024547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_16
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 660
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdf889ebd1ee1a50800000000000000
+      internalID: 6493876047346990517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_17
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 662
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a993cce98215ae720800000000000000
+      internalID: 2876200546934208922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_18
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 642
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfc01649115a7390800000000000000
+      internalID: -7819848633983905871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_19
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 665
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6971cfc60b049d0800000000000000
+      internalID: -2792037786837346648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_20
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 659
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b360ed7f31cc0de0800000000000000
+      internalID: -1365504108561144903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_21
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 661
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58b7d8d383b40870800000000000000
+      internalID: 8648234563318298719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_22
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 667
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eab865a51718bd80800000000000000
+      internalID: -8234806536910095641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_23
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 664
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1e7ecbb74eed620800000000000000
+      internalID: 2800927238372450775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_24
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 661
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b19d101ef5f45010800000000000000
+      internalID: 1176835874191413680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_25
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 663
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25014473bac2159f0800000000000000
+      internalID: -481554571273695150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_26
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 659
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e586de5a4785600800000000000000
+      internalID: 457243618179571218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_27
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 659
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a012bb9ef88cea0800000000000000
+      internalID: -5852269481738302970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_28
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 655
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d7f503f20147550800000000000000
+      internalID: 6157564385383382313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_29
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 661
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c502e595eb6d650800000000000000
+      internalID: 6257398023318428678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_30
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 659
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f147591ed0284e0800000000000000
+      internalID: -1981005623563378939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_31
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 642
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc44341c133101760800000000000000
+      internalID: 7426456889950684367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_32
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 642
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70bca4c63bfbff40800000000000000
+      internalID: 5763476360797139068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_33
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 628
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df88282abea1873b0800000000000000
+      internalID: -5514628144369071875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_34
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 624
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4001facf96580c0800000000000000
+      internalID: -4574133312535133015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_35
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 621
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7748f978f2c80da50800000000000000
+      internalID: 6543884394336060535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_36
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 618
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f810fb2c3670cfa0800000000000000
+      internalID: -5782491920736446216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_37
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 618
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b73a6e52c85e630800000000000000
+      internalID: 3955721942126001010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_38
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 618
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f478976a07b8202f0800000000000000
+      internalID: -1008090050631989425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_39
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 604
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3114f50dfdc6ba50800000000000000
+      internalID: 6536638395785154875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_40
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 585
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6169d7b01552a300800000000000000
+      internalID: 261865258633224555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_41
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 594
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f807a377661e490800000000000000
+      internalID: -7718775624068722805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_42
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 586
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e005a2e0c6fdffd40800000000000000
+      internalID: 5620456515168784398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_43
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 594
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72892e8bcd2f7d6b0800000000000000
+      internalID: -5271477809005291481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_44
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 144
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bb54c84739797c0800000000000000
+      internalID: -4064618009899713728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_45
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 77
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d16dbf2c6a3bca70800000000000000
+      internalID: 8848230129231290838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_46
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 85
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a97dea6a7053880800000000000000
+      internalID: -8631984698306356581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_47
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 77
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67575a7efa13c9e0800000000000000
+      internalID: -1602407362137204881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_48
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 80
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7149965046558c170800000000000000
+      internalID: 8198897009703883799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_49
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 79
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0038e47957e7b40800000000000000
+      internalID: 5439914692627857608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_50
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 79
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb69ac9720d37800800000000000000
+      internalID: 609059243175799800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_51
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 85
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62418fb146ec3fc20800000000000000
+      internalID: 3239159486370812966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_52
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 79
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13e80f13c67e8c50800000000000000
+      internalID: 6669398678593659675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_53
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8445d4f896e3770b0800000000000000
+      internalID: -5731043377708968888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_54
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 79
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b849bcea449587b90800000000000000
+      internalID: -7243941849100217205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_55
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 79
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be70719324955a40800000000000000
+      internalID: 5356350212311908018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_56
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 81
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a77f13d80451370800000000000000
+      internalID: 8292605264045505048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_57
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 84
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b15f2c8efb1f0c0800000000000000
+      internalID: -4543639542615958733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_58
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 81
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9867dd2f7bb445f60800000000000000
+      internalID: 8022120089679394441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_59
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 79
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630827b82f0b73490800000000000000
+      internalID: -7766544476609019850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_60
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 79
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd929be4967061b00800000000000000
+      internalID: 798834132778559965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_61
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 87
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d449532fa41969900800000000000000
+      internalID: 690899343925154893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_62
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 79
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64801bd812ee2070800000000000000
+      internalID: 8083646977559004267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_63
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 79
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe28b675cfbc50f0800000000000000
+      internalID: -1126814951928221963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_64
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 79
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b992a515e92d000a0800000000000000
+      internalID: -6917297450229552741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_65
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 79
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5359e995e357120800000000000000
+      internalID: 2410901730160358878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_66
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 77
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc53600d07cfa240800000000000000
+      internalID: 4805278186082622652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_67
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 79
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdcbdbf2648ee8c0800000000000000
+      internalID: -3968088660999680587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_68
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 77
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7600e038e771af830800000000000000
+      internalID: 4105619842433679463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leve next_69
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3b0abe6d7d32b70800000000000000
+      internalID: 8873173008926159858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      leve next_0: 5237767340637157373
+      leve next_1: 7570834326545703823
+      leve next_10: -881666781491555820
+      leve next_11: -5109753228470738832
+      leve next_12: -4284260578609379238
+      leve next_13: -4372709517135886357
+      leve next_14: -5671973855134259511
+      leve next_15: 6058648845253024547
+      leve next_16: 6493876047346990517
+      leve next_17: 2876200546934208922
+      leve next_18: -7819848633983905871
+      leve next_19: -2792037786837346648
+      leve next_2: -7673555864733177313
+      leve next_20: -1365504108561144903
+      leve next_21: 8648234563318298719
+      leve next_22: -8234806536910095641
+      leve next_23: 2800927238372450775
+      leve next_24: 1176835874191413680
+      leve next_25: -481554571273695150
+      leve next_26: 457243618179571218
+      leve next_27: -5852269481738302970
+      leve next_28: 6157564385383382313
+      leve next_29: 6257398023318428678
+      leve next_3: 1265412885180728801
+      leve next_30: -1981005623563378939
+      leve next_31: 7426456889950684367
+      leve next_32: 5763476360797139068
+      leve next_33: -5514628144369071875
+      leve next_34: -4574133312535133015
+      leve next_35: 6543884394336060535
+      leve next_36: -5782491920736446216
+      leve next_37: 3955721942126001010
+      leve next_38: -1008090050631989425
+      leve next_39: 6536638395785154875
+      leve next_4: -6830169430750029663
+      leve next_40: 261865258633224555
+      leve next_41: -7718775624068722805
+      leve next_42: 5620456515168784398
+      leve next_43: -5271477809005291481
+      leve next_44: -4064618009899713728
+      leve next_45: 8848230129231290838
+      leve next_46: -8631984698306356581
+      leve next_47: -1602407362137204881
+      leve next_48: 8198897009703883799
+      leve next_49: 5439914692627857608
+      leve next_5: 3359033193077617159
+      leve next_50: 609059243175799800
+      leve next_51: 3239159486370812966
+      leve next_52: 6669398678593659675
+      leve next_53: -5731043377708968888
+      leve next_54: -7243941849100217205
+      leve next_55: 5356350212311908018
+      leve next_56: 8292605264045505048
+      leve next_57: -4543639542615958733
+      leve next_58: 8022120089679394441
+      leve next_59: -7766544476609019850
+      leve next_6: -5519125812378626625
+      leve next_60: 798834132778559965
+      leve next_61: 690899343925154893
+      leve next_62: 8083646977559004267
+      leve next_63: -1126814951928221963
+      leve next_64: -6917297450229552741
+      leve next_65: 2410901730160358878
+      leve next_66: 4805278186082622652
+      leve next_67: -3968088660999680587
+      leve next_68: 4105619842433679463
+      leve next_69: 8873173008926159858
+      leve next_7: 3804378688855334005
+      leve next_8: 5248922578368731409
+      leve next_9: -8032941719139033479
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
