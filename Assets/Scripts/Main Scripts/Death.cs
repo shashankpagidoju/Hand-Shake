@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Death : MonoBehaviour
 {
@@ -29,16 +30,37 @@ public class Death : MonoBehaviour
             if (particles != null)
             {
                 particles.Play();
+
+                // Run coroutine from GameManager
+                gameManager.StartCoroutine(
+                    WaitForEffect(particles, effect)
+                );
+            }
+            else
+            {
+                gameManager.GameOver();
+                Destroy(effect);
             }
 
-            // Hide ball
+            // Hide ball AFTER starting coroutine
             gameObject.SetActive(false);
-
-            // Game Over
-            gameManager.GameOver();
-
-            // Destroy effect after particles finish
-            Destroy(effect, 2f);
         }
+    }
+
+    private IEnumerator WaitForEffect(
+        ParticleSystem particles,
+        GameObject effect)
+    {
+        // Wait until the complete particle effect finishes
+        while (particles.IsAlive(true))
+        {
+            yield return null;
+        }
+
+        // Destroy the effect
+        Destroy(effect);
+
+        // NOW show Game Over
+        gameManager.GameOver();
     }
 }
