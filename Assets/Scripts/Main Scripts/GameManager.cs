@@ -5,26 +5,43 @@ public class GameManager : MonoBehaviour
 {
     public GameObject gameOverPanel;
 
+    void Awake()
+    {
+        // Make sure every newly loaded level starts correctly
+        Time.timeScale = 1f;
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
     void Start()
     {
         Time.timeScale = 1f;
 
-        // Every time the scene loads,
-        // player must use the Start box again.
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
 
         PlayerState state = FindFirstObjectByType<PlayerState>();
 
         if (state != null)
+        {
             state.canMove = false;
+        }
+
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(false);
+        }
     }
 
     public void GameOver()
     {
-        gameOverPanel.SetActive(true);
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+        }
 
-        // Show cursor so player can click Restart
+        // Show cursor for Game Over buttons
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
 
@@ -33,11 +50,13 @@ public class GameManager : MonoBehaviour
 
     public void Restart()
     {
-        // Resume time before loading
+        // Reset everything BEFORE loading
         Time.timeScale = 1f;
 
-        // Reload scene
-        // StartTrigger will require the blue box again
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
+        // Reload CURRENT level
         SceneManager.LoadScene(
             SceneManager.GetActiveScene().buildIndex
         );

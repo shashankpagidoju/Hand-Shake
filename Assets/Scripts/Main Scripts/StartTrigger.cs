@@ -5,25 +5,46 @@ public class StartTrigger : MonoBehaviour
 {
     public MouseFollow player;
 
+    private PlayerState state;
+    private Collider2D startCollider;
+
+    void Start()
+    {
+        state = player.GetComponent<PlayerState>();
+        startCollider = GetComponent<Collider2D>();
+
+        // Every new level starts with cursor visible
+        state.canMove = false;
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
     void Update()
     {
-        // Skip if player can already move
-        if (player.GetComponent<PlayerState>().canMove)
-            return;
-
-        // Only respond to LEFT CLICK
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        // Player has NOT started yet
+        if (!state.canMove)
         {
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            // Keep cursor visible
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
 
-            if (GetComponent<Collider2D>().OverlapPoint(mousePos))
+            if (Mouse.current.leftButton.wasPressedThisFrame)
             {
-                PlayerState state = player.GetComponent<PlayerState>();
+                Vector2 mousePos =
+                    Camera.main.ScreenToWorldPoint(
+                        Mouse.current.position.ReadValue()
+                    );
 
-                state.canMove = true;
+                if (startCollider.OverlapPoint(mousePos))
+                {
+                    // Start controlling the ball
+                    state.canMove = true;
 
-                Cursor.visible = false;
-                Cursor.lockState = CursorLockMode.Locked;
+                    // Hide cursor
+                    Cursor.visible = false;
+                    Cursor.lockState = CursorLockMode.Locked;
+                }
             }
         }
     }

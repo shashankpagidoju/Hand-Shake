@@ -26,7 +26,11 @@ public class FinishTrigger : MonoBehaviour
                 LevelProgressManager.Instance.CompleteLevel(levelNumber);
             }
 
+            // Show and unlock cursor before changing scene
             Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+
+            Time.timeScale = 1f;
 
             SceneManager.LoadScene(
                 SceneManager.GetActiveScene().buildIndex + 1

@@ -3,12 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuNavigation : MonoBehaviour
 {
+    [Header("Panels")]
+    public GameObject settingsPanel;
+
     public void PlayGame()
     {
         // Check if tutorials have already been shown
         if (PlayerPrefs.GetInt("TutorialShown", 0) == 0)
         {
-            // Mark tutorials as shown
             PlayerPrefs.SetInt("TutorialShown", 1);
             PlayerPrefs.Save();
 
@@ -24,15 +26,18 @@ public class MainMenuNavigation : MonoBehaviour
 
     public void OpenSettings()
     {
-        // Your settings panel logic can go here
+        settingsPanel.SetActive(true);
+    }
+
+    public void CloseSettings()
+    {
+        settingsPanel.SetActive(false);
     }
 
     public void ExitGame()
     {
         Application.Quit();
 
-        // This works only in the built game.
-        // In Unity Editor it won't visibly close the game.
         Debug.Log("Game Exited");
     }
 }
