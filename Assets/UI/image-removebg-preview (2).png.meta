@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 81b4193c30f01de46b4fc0ebf56b196a
+guid: 4f9a963e151beee4f8391d9a94bcd0c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7223944170426168924
-    second: move the ball_0
+      213: -4355272409397247203
+    second: image-removebg-preview (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: move the ball_0
+      name: image-removebg-preview (2)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1052
-        height: 1495
+        x: 6
+        y: 36
+        width: 396
+        height: 571
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c56718be2fa904460800000000000000
-      internalID: 7223944170426168924
+      spriteID: d1341d1a1d6fe83c0800000000000000
+      internalID: -4355272409397247203
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      move the ball_0: 7223944170426168924
+      image-removebg-preview (2)_0: -4355272409397247203
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
