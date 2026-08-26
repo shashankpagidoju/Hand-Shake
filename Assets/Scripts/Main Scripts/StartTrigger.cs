@@ -5,6 +5,10 @@ public class StartTrigger : MonoBehaviour
 {
     public MouseFollow player;
 
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip startClickSound;
+
     private PlayerState state;
     private Collider2D startCollider;
 
@@ -38,6 +42,12 @@ public class StartTrigger : MonoBehaviour
 
                 if (startCollider.OverlapPoint(mousePos))
                 {
+                    // Play click sound
+                    if (audioSource != null && startClickSound != null)
+                    {
+                        audioSource.PlayOneShot(startClickSound);
+                    }
+
                     // Start controlling the ball
                     state.canMove = true;
 
