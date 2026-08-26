@@ -1317,8 +1317,8 @@ MonoBehaviour:
   ball: {fileID: 1654310613}
   zoomSize: 3
   zoomSpeed: 4
-  shakeAmount: 0.7
-  shakeSpeed: 25
+  shakeAmount: 0.25
+  shakeSpeed: 15
   returnSpeed: 4
 --- !u!82 &314413553
 AudioSource:

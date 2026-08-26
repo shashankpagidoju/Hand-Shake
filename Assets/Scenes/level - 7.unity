@@ -619,7 +619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Death
   gameManager: {fileID: 1507932848}
-  ballBreakEffect: {fileID: 0}
+  ballBreakEffect: {fileID: 1802195187}
 --- !u!58 &432145805
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3414,6 +3414,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1802195187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3667866655463178877, guid: 15d9562070036724b972ab42ca47c955, type: 3}
+  m_PrefabInstance: {fileID: 282192016}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1848355623
 GameObject:
   m_ObjectHideFlags: 0
