@@ -670,7 +670,7 @@ GameObject:
   - component: {fileID: 124220161}
   m_Layer: 0
   m_Name: walls (11)
-  m_TagString: Death
+  m_TagString: Skull
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1316,7 +1316,7 @@ MonoBehaviour:
   ball: {fileID: 1654310613}
   zoomSize: 3
   zoomSpeed: 4
-  shakeAmount: 0.09
+  shakeAmount: 0.7
   shakeSpeed: 25
   returnSpeed: 4
 --- !u!1 &464190056
@@ -2248,6 +2248,105 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871843529}
   m_CullTransparentMesh: 1
+--- !u!1 &883490786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 883490787}
+  m_Layer: 0
+  m_Name: StartPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &883490787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883490786}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.01, y: 2.41, z: 0}
+  m_LocalScale: {x: 0.33962172, y: 0.33962172, z: 0.33962172}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1110551601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1110551603}
+  - component: {fileID: 1110551602}
+  m_Layer: 0
+  m_Name: Video Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!328 &1110551602
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110551601}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 76d4912ade6c30341aca091d059f2ac4, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 314413549}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 1
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 2
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!4 &1110551603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110551601}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.03376, y: -1.83051, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1150248539
 GameObject:
   m_ObjectHideFlags: 0
@@ -3939,6 +4038,7 @@ GameObject:
   - component: {fileID: 1654310615}
   - component: {fileID: 1654310614}
   - component: {fileID: 1654310618}
+  - component: {fileID: 1654310619}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4014,7 +4114,7 @@ Transform:
   m_GameObject: {fileID: 1654310611}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.91, y: 2.46, z: 0}
+  m_LocalPosition: {x: -4.01, y: 2.41, z: 0}
   m_LocalScale: {x: 0.33962172, y: 0.33962172, z: 0.33962172}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4128,6 +4228,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Death
   gameManager: {fileID: 636866118}
   ballBreakEffect: {fileID: 1231816520}
+--- !u!114 &1654310619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654310611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fabc46a0f4358b498177dd4ef51f9eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Skull
+  skullVideo: {fileID: 1110551602}
+  startPoint: {fileID: 883490787}
 --- !u!1 &1743499473
 GameObject:
   m_ObjectHideFlags: 0
@@ -4736,3 +4850,5 @@ SceneRoots:
   - {fileID: 1763605041}
   - {fileID: 94434235}
   - {fileID: 97383073}
+  - {fileID: 1110551603}
+  - {fileID: 883490787}

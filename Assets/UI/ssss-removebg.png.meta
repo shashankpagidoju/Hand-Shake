@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: f0b646eb65ca8e648a9b628a1ccec47e
+guid: 6458949f3b174884ea8de2f3aaa0526a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -122932413312744738
-    second: puka_0
-  - first:
-      213: -5058881681112569216
-    second: puka_1
+      213: -7560805160061550042
+    second: ssss-removebg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -49,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: puka_0
+      name: ssss-removebg_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 27
-        width: 2172
-        height: 697
+        x: 2
+        y: 0
+        width: 606
+        height: 408
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed2cc151f914b4ef0800000000000000
-      internalID: -122932413312744738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: puka_1
-      rect:
-        serializedVersion: 2
-        x: 1044
-        y: 651
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08aed840aed3bc9b0800000000000000
-      internalID: -5058881681112569216
+      spriteID: 622479a04cf921790800000000000000
+      internalID: -7560805160061550042
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      puka_0: -122932413312744738
-      puka_1: -5058881681112569216
+      ssss-removebg_0: -7560805160061550042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

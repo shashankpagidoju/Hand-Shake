@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4c31456d7da71494ca0efec184251315
+guid: 1743f0764e2281f41ae6374e5996122a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5360339361947195274
-    second: Turtorials_0
+      213: 5156776694448688124
+    second: bar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Turtorials_0
+      name: bar_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2176
-        height: 722
+        x: 60
+        y: 243
+        width: 2052
+        height: 242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 678e79720cf3c95b0800000000000000
-      internalID: -5360339361947195274
+      spriteID: cfb80a2f41d809740800000000000000
+      internalID: 5156776694448688124
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Turtorials_0: -5360339361947195274
+      bar_0: 5156776694448688124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
