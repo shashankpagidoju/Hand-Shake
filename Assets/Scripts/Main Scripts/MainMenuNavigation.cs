@@ -8,15 +8,13 @@ public class MainMenuNavigation : MonoBehaviour
 
     public void PlayGame()
     {
-        // Tutorial has NOT been completed yet
+        // Tutorial not completed yet
         if (PlayerPrefs.GetInt("TutorialShown", 0) == 0)
         {
-            // First time → Tutorials
             SceneManager.LoadScene("tutorials");
         }
         else
         {
-            // Tutorial already completed → Level Panel 1
             SceneManager.LoadScene("levels page - 1");
         }
     }
@@ -34,7 +32,5 @@ public class MainMenuNavigation : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
-
-        Debug.Log("Game Exited");
     }
 }

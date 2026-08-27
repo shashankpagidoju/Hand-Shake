@@ -25,17 +25,22 @@ public class TutorialNavigation : MonoBehaviour
 
     public void CompleteTutorial()
     {
-        // Tutorial is now completed
         PlayerPrefs.SetInt("TutorialShown", 1);
 
-        // Unlock Level 1
-        PlayerPrefs.SetInt("HighestUnlockedLevel", 1);
+        // Level 1 is available after tutorial
+        if (PlayerPrefs.GetInt("HighestUnlockedLevel", 0) < 1)
+        {
+            PlayerPrefs.SetInt("HighestUnlockedLevel", 1);
+        }
 
         PlayerPrefs.Save();
+
+        Debug.Log("Tutorial Completed!");
     }
 
     public void OpenLevelPanel()
     {
+        // Mark tutorial as completed ONLY here
         CompleteTutorial();
 
         Cursor.lockState = CursorLockMode.None;
