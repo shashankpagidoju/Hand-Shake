@@ -25,7 +25,12 @@ public class TutorialNavigation : MonoBehaviour
 
     public void CompleteTutorial()
     {
+        // Tutorial is now completed
         PlayerPrefs.SetInt("TutorialShown", 1);
+
+        // Unlock Level 1
+        PlayerPrefs.SetInt("HighestUnlockedLevel", 1);
+
         PlayerPrefs.Save();
     }
 

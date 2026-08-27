@@ -8,18 +8,15 @@ public class MainMenuNavigation : MonoBehaviour
 
     public void PlayGame()
     {
-        // Check if tutorials have already been shown
+        // Tutorial has NOT been completed yet
         if (PlayerPrefs.GetInt("TutorialShown", 0) == 0)
         {
-            PlayerPrefs.SetInt("TutorialShown", 1);
-            PlayerPrefs.Save();
-
             // First time → Tutorials
             SceneManager.LoadScene("tutorials");
         }
         else
         {
-            // Tutorials already completed → Level Panel
+            // Tutorial already completed → Level Panel 1
             SceneManager.LoadScene("levels page - 1");
         }
     }

@@ -13,15 +13,20 @@ public class LevelButton : MonoBehaviour
 
     private Button button;
 
-    private void Start()
+    private void Awake()
     {
         button = GetComponent<Button>();
+    }
+
+    private void Start()
+    {
         UpdateButton();
     }
 
     private void OnEnable()
     {
-        UpdateButton();
+        // Wait until LevelProgressManager exists
+        Invoke(nameof(UpdateButton), 0.1f);
     }
 
     private void UpdateButton()
@@ -35,15 +40,15 @@ public class LevelButton : MonoBehaviour
         bool completed =
             LevelProgressManager.Instance.IsLevelCompleted(levelNumber);
 
-        // Show LOCKED only when the level is locked
+        // LOCKED image
         if (lockedImage != null)
             lockedImage.SetActive(!unlocked);
 
-        // Show COMPLETED only when the level has been completed
+        // COMPLETED image
         if (completedImage != null)
             completedImage.SetActive(completed);
 
-        // Locked levels cannot be clicked
+        // Enable/disable button
         if (button != null)
             button.interactable = unlocked;
     }
@@ -51,14 +56,21 @@ public class LevelButton : MonoBehaviour
     public void OpenLevel()
     {
         if (LevelProgressManager.Instance == null)
-            return;
-
-        if (!LevelProgressManager.Instance.IsLevelUnlocked(levelNumber))
         {
-            Debug.Log("Level " + levelNumber + " is locked.");
+            Debug.LogError("LevelProgressManager is missing!");
             return;
         }
 
-        SceneManager.LoadScene("level-" + levelNumber);
+        if (!LevelProgressManager.Instance.IsLevelUnlocked(levelNumber))
+        {
+            Debug.Log("Level " + levelNumber + " is LOCKED.");
+            return;
+        }
+
+        string sceneName = "level-" + levelNumber;
+
+        Debug.Log("Opening " + sceneName);
+
+        SceneManager.LoadScene(sceneName);
     }
 }
