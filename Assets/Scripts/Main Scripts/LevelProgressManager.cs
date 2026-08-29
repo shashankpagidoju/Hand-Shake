@@ -8,8 +8,6 @@ public class LevelProgressManager : MonoBehaviour
 
     private void Awake()
     {
-        PlayerPrefs.DeleteAll(); // TEMPORARY - reset old testing data
-
         if (Instance == null)
         {
             Instance = this;
@@ -23,7 +21,6 @@ public class LevelProgressManager : MonoBehaviour
 
     public int GetHighestUnlockedLevel()
     {
-        // Fresh game = Level 1 unlocked
         return PlayerPrefs.GetInt(HighestLevelKey, 1);
     }
 
@@ -37,7 +34,6 @@ public class LevelProgressManager : MonoBehaviour
         }
 
         PlayerPrefs.SetInt("LevelCompleted_" + levelNumber, 1);
-
         PlayerPrefs.Save();
     }
 
@@ -48,15 +44,13 @@ public class LevelProgressManager : MonoBehaviour
 
     public bool IsLevelCompleted(int levelNumber)
     {
-        return PlayerPrefs.GetInt(
-            "LevelCompleted_" + levelNumber, 0
-        ) == 1;
+        return PlayerPrefs.GetInt("LevelCompleted_" + levelNumber, 0) == 1;
     }
 
-    // Use this ONLY when you want to start testing from the beginning
+    // ONLY use this manually when you want to erase all progress.
     public void ResetProgress()
     {
-        PlayerPrefs.DeleteKey(HighestLevelKey);
+        PlayerPrefs.DeleteKey("HighestUnlockedLevel");
 
         for (int i = 1; i <= 16; i++)
         {
