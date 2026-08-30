@@ -822,6 +822,7 @@ GameObject:
   - component: {fileID: 101901615}
   - component: {fileID: 101901618}
   - component: {fileID: 101901619}
+  - component: {fileID: 101901620}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1044,6 +1045,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &101901620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101901614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106751d0dd5145d46852e6a2c605c2c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::settingsvolume
 --- !u!1 &135035775
 GameObject:
   m_ObjectHideFlags: 0

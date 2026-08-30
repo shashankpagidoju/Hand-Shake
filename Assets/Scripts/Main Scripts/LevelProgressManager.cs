@@ -13,7 +13,7 @@ public class LevelProgressManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
 
-            
+            ResetLevelProgress();
         }
         else
         {
@@ -49,19 +49,19 @@ public class LevelProgressManager : MonoBehaviour
         return PlayerPrefs.GetInt("LevelCompleted_" + levelNumber, 0) == 1;
     }
 
-    public void ResetProgress()
+    private void ResetLevelProgress()
     {
-        PlayerPrefs.DeleteKey("HighestUnlockedLevel");
-
+        // Delete all completed levels
         for (int i = 1; i <= 16; i++)
         {
             PlayerPrefs.DeleteKey("LevelCompleted_" + i);
         }
 
-        PlayerPrefs.DeleteKey("TutorialShown");
+        // Only Level 1 is unlocked
+        PlayerPrefs.SetInt(HighestLevelKey, 1);
 
         PlayerPrefs.Save();
 
-        Debug.Log("GAME PROGRESS RESET");
+        Debug.Log("FINAL LEVEL PROGRESS RESET");
     }
 }
