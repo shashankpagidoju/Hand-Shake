@@ -12,6 +12,8 @@ public class LevelProgressManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+
+            
         }
         else
         {
@@ -47,7 +49,6 @@ public class LevelProgressManager : MonoBehaviour
         return PlayerPrefs.GetInt("LevelCompleted_" + levelNumber, 0) == 1;
     }
 
-    // ONLY use this manually when you want to erase all progress.
     public void ResetProgress()
     {
         PlayerPrefs.DeleteKey("HighestUnlockedLevel");

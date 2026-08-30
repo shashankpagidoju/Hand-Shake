@@ -6,9 +6,16 @@ public class MainMenuNavigation : MonoBehaviour
     [Header("Panels")]
     public GameObject settingsPanel;
 
+    private void Awake()
+    {
+        ;
+        PlayerPrefs.Save();
+
+        Debug.Log("TUTORIAL RESET");
+    }
+
     public void PlayGame()
     {
-        // Tutorial not completed yet
         if (PlayerPrefs.GetInt("TutorialShown", 0) == 0)
         {
             SceneManager.LoadScene("tutorials");
