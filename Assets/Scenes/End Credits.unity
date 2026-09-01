@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 777852359}
   - component: {fileID: 777852358}
   m_Layer: 0
-  m_Name: EndCredi
+  m_Name: EndCredits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e47a443296214f4787dab0c0a6b9e77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndCredit
-  timeBeforeMainMenu: 20
+  timeBeforeMainMenu: 10
 --- !u!4 &777852359
 Transform:
   m_ObjectHideFlags: 0
@@ -657,7 +657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d266d61ca952a24494735b0312df87f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreditsScroll
-  scrollSpeed: 545
+  scrollSpeed: 500
 --- !u!1 &1689166451
 GameObject:
   m_ObjectHideFlags: 0
